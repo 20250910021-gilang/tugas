@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 05 - Profil dan Kontak Prodi</title>
+</head>
+<body>
+    <h1>Hubungi Fakultas Ilmu Komputer</h1>
+    <p>
+        Kunjungi website resmi: 
+        <a href="https://fkom.uniku.ac.id" target="_blank">Portal FKOM UNIKU</a>
+    </p>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend><strong>Formulir Pertanyaan & Aspirasi Mahasiswa</strong></legend>
+            <p>
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama..." required>
+            </p>
+            <p>
+                <label for="prodi">Pilihan Program Studi:</label><br>
+                <select id="prodi" name="prodi">
+                    <option value="ti">S1 Teknik Informatika</option>
+                    <option value="si">S1 Sistem Informasi</option>
+                    <option value="dkv">S1 Desain Komunikasi Visual</option>
+                    <option value="ts">S1 Teknik Sipil</option>
+                </select>
+            </p>
+            <p>
+                <label for="pesan">Pesan / Pertanyaan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" cols="40" placeholder="Tuliskan pesan Anda..."></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Kirim Pesan">
+                <input type="reset" value="Reset">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
